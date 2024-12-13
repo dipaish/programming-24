@@ -4,6 +4,7 @@ const blue = require("@material-ui/core/colors/red").default
 const CourseSettings = require('./course-settings')
 
 module.exports = {
+  pathPrefix: "/programming-24",
   siteMetadata: {
     title: CourseSettings.name,
     siteUrl: CourseSettings.siteUrl,
