@@ -1,8 +1,8 @@
 const courseSettings = {
   language: "en",
-  name: "Python Programming MOOC 2024",
-  siteUrl: "https://programming-24.mooc.fi",
-  githubUrl: "https://github.com/rage/programming-24",
+  name: "Python Programming MOOC 2025",
+  siteUrl: "https://dipaish.github.io/programming-24/",
+  githubUrl: "https://dipaish.github.io/programming-24/",
   subtitle: "Python Programming MOOC",
   slug: "programming-24",
   organizationName: "MOOC",
