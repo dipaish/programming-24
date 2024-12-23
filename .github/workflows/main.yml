@@ -23,7 +23,9 @@ jobs:
           npm ci --legacy-peer-deps
 
       - name: Build
-        run: npm run build
+        run: |
+          gatsby clean
+          gatsby build --prefix-paths
         env:
           GATSBY_TELEMETRY_DISABLED: 1
           NODE_ENV: production

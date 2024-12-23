@@ -1,5 +1,5 @@
 ---
-path: '/part-3'
+path: '/data/part-3'
 title: 'Part 3'
 overview: true
 hidden: false

@@ -95,3 +95,22 @@ exports.createPages = ({ actions, graphql }) => {
     })
   })
 }
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type MarkdownRemarkFrontmatter {
+      path: String
+      title: String
+      hidden: Boolean
+      course_info_page: Boolean
+      sidebar_priority: Int
+      hide_in_sidebar: Boolean
+    }
+
+    type MarkdownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter
+    }
+  `
+  createTypes(typeDefs)
+}
