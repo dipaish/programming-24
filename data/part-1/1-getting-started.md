@@ -226,3 +226,5 @@ A quiz to review the contents of this section:
 <quiz id="f1d6d205-dfd6-5c6f-b148-b332dfd64289"></quiz>
 
 -->
+
+[Next section]({{ site.baseurl }}/data/part-1/2-information-from-the-user)
