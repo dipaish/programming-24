@@ -4,22 +4,34 @@ on:
   push:
     branches:
       - main
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-      - name: Use Node 16
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16.x'
-      - name: Install and Build
+          node-version: '16'
+          cache: 'npm'
+
+      - name: Install Dependencies
         run: |
           npm ci --legacy-peer-deps
-          npm run build
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+
+      - name: Build
+        run: npm run build
+        env:
+          GATSBY_TELEMETRY_DISABLED: 1
+          NODE_ENV: production
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: _site
+          folder: public
+          clean: true
+          token: ${{ secrets.GITHUB_TOKEN }}
