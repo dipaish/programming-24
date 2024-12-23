@@ -1,5 +1,5 @@
 ---
-path: "/part-1/3-more-about-variables"
+path: "/programming-24/part-1/3-more-about-variables"
 title: "More about variables"
 hidden: false
 ---

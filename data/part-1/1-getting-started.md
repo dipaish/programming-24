@@ -1,5 +1,5 @@
 ---
-path: '/part-1/1-getting-started'
+path: '/programming-24/part-1/1-getting-started'
 title: 'Getting started'
 hidden: false
 ---

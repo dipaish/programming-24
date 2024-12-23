@@ -1,5 +1,5 @@
 ---
-path: '/part-1/2-information-from-the-user'
+path: '/programming-24/part-1/2-information-from-the-user'
 title: 'Information from the user'
 hidden: false
 ---

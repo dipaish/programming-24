@@ -1,5 +1,5 @@
 ---
-path: '/part-3'
+path: '/programming-24/part-3'
 title: 'Part 3'
 overview: true
 hidden: false

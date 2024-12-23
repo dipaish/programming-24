@@ -1,5 +1,5 @@
 ---
-path: "/part-1/5-conditional-statements"
+path: "/programming-24/part-1/5-conditional-statements"
 title: "Conditional statements"
 hidden: false
 ---
