@@ -1,5 +1,5 @@
 ---
-path: '/programming-24/part-3/2-working-with-strings'
+path: '/part-3/2-working-with-strings'
 title: 'Working with strings'
 hidden: false
 ---
@@ -782,3 +782,6 @@ A quiz to review the contents of this section:
 
 <quiz id="6bfa7eab-80de-52e2-afe5-285af914099f"></quiz>
 -->
+
+[Previous section]({{ site.baseurl }}/data/part-3/1-functions)
+[Next section]({{ site.baseurl }}/data/part-3/3-more-loops)

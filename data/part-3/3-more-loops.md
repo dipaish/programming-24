@@ -1,5 +1,5 @@
 ---
-path: '/programming-24/part-3/3-more-loops'
+path: '/part-3/3-more-loops'
 title: 'More loops'
 hidden: false
 ---
@@ -403,3 +403,6 @@ A quiz to review the contents of this section:
 
 <quiz id="b1118ae8-8dd4-563a-b6a5-0c274136535c"></quiz>
 -->
+
+[Previous section]({{ site.baseurl }}/data/part-3/2-working-with-strings)
+[Next section]({{ site.baseurl }}/data/part-3/4-defining-functions)

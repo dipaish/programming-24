@@ -1,5 +1,5 @@
 ---
-path: '/programming-24/part-3/4-defining-functions'
+path: '/part-3/4-defining-functions'
 title: 'Defining functions'
 hidden: false
 ---
@@ -479,3 +479,6 @@ A quiz to review the contents of this section:
 Please respond to a quick questionnaire on this week's materials.
 
 <quiz id="80016b6a-28f8-5f64-a551-63b06f7f63a6"></quiz>
+
+[Previous section]({{ site.baseurl }}/data/part-3/3-more-loops)
+[Next section]({{ site.baseurl }}/data/part-4/1-variables)
