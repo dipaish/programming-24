@@ -1,6 +1,32 @@
-<!-- If you have a default layout, update the links to include the repository name -->
-<!-- Change links from: -->
-<a href="/grading-and-exams">Grading and exams</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Update any CSS links -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <nav>
+        <!-- Example navigation links -->
+        <a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ site.baseurl }}/grading-and-exams">Grading and Exams</a>
+        <a href="{{ site.baseurl }}/assignments">Assignments</a>
+        <!-- Add more navigation links as needed -->
+    </nav>
 
-<!-- To: -->
-<a href="/programming-24/grading-and-exams">Grading and exams</a>
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <!-- Update any footer links -->
+        <a href="{{ site.baseurl }}/about">About</a>
+        <a href="{{ site.baseurl }}/contact">Contact</a>
+    </footer>
+
+    <!-- Update any JavaScript file links -->
+    <script src="{{ site.baseurl }}/assets/js/script.js"></script>
+</body>
+</html>
