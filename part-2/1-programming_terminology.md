@@ -1,5 +1,5 @@
 ---
-path: '/part-2/1-programming-terminology'
+path: '/programming-24/part-2/1-programming-terminology'
 title: 'Programming terminology'
 ---
 

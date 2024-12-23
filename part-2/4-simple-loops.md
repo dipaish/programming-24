@@ -1,5 +1,5 @@
 ---
-path: '/part-2/4-simple-loops'
+path: '/programming-24/part-2/4-simple-loops'
 title: 'Simple loops'
 hidden: false
 ---
