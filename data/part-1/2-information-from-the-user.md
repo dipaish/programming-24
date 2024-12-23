@@ -1,8 +1,11 @@
 ---
-path: '/programming-24/data/part-1/2-information-from-the-user'
+path: '/data/part-1/2-information-from-the-user'
 title: 'Information from the user'
 hidden: false
 ---
+
+[Previous section]({{ site.baseurl }}/data/part-1/1-getting-started)
+[Next section]({{ site.baseurl }}/data/part-2/1-programming-terminology)
 
 <text-box variant='learningObjectives' name='Learning objectives'>
 
