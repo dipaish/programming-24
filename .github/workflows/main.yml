@@ -4,36 +4,22 @@ on:
   push:
     branches:
       - main
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+      - name: Use Node 16
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
-          cache: 'npm'
-
-      - name: Install Dependencies
+          node-version: '16.x'
+      - name: Install and Build
         run: |
           npm ci --legacy-peer-deps
-
-      - name: Build
-        run: |
-          gatsby clean
-          gatsby build --prefix-paths
-        env:
-          GATSBY_TELEMETRY_DISABLED: 1
-          NODE_ENV: production
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+          npm run build
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
-          branch: gh-pages
-          folder: public
-          clean: true
-          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages # The branch the action should deploy to.
+          folder: public # The folder the action should deploy.
