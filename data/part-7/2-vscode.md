@@ -34,7 +34,7 @@ This method involves installing Git on your local machine and using the **GitHub
 
 2. **Configure Git**
 
-After installing Git, you need to configure Git by providing your full name and email address.You can start GitHub Desktop and configure using the graphical user interface as shown in the diagram below or use the command line.
+After installing Git, you need to configure Git by providing your full name and email address.You can start [GitHub Desktop](https://github.com/apps/desktop) (if you have in already installed in your personal device, if not you can install it ) and configure using the graphical user interface as shown in the diagram below or use the command line.
 
 ![GitHub account creation](configure1.png "Please click Create your free account or Sign in to GitHUb.com depending on your situation")
 ![Configure Git](configure2.png "Please use your Full Name and email ")
